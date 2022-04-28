@@ -36,3 +36,45 @@ h1 {
 .hidden-text span {
   color: #2d3d4a;
 }
+
+@media (min-width: 320px) {
+	.text {
+		padding: 20px;
+	}
+	h1 {
+		color: #aebcc9;
+		font-size: 28px;
+		position: relative;
+		overflow: hidden;
+		height: 32px;
+		margin: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.text {
+		padding: 50px;
+	}
+	h1 {
+		color: #aebcc9;
+		font-size: 60px;
+		position: relative;
+		overflow: hidden;
+		height: 80px;
+		margin: 0;
+	}
+}
+
+@media (min-width: 1440px) {
+	.text {
+		padding: 100px;
+	}
+	h1 {
+		color: #aebcc9;
+		font-size: 130px;
+		position: relative;
+		overflow: hidden;
+		height: 150px;
+		margin: 0;
+	}
+}
